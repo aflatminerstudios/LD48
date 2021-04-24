@@ -18,8 +18,32 @@ if (curSteps <= 0) {
 
 curSteps += curDirection;
 
-if (curSteps <= activeBuffer || (totalSteps - curSteps <= activeBuffer)) {
+if (curSteps <= activeBuffer || (totalSteps - curSteps <= activeBuffer)) {  
   active = true;
 } else {
+
   active = false;
+  pushed = false;
 }
+
+
+//If active, check for correct key press
+if (active) {
+  with (objDepthControl) {
+    if (keyboard_check_pressed(ord("A"))) {    
+      scrChangeHypnosis(1);
+      pushed = true;
+    } else if (keyboard_check_pressed(vk_anykey)) {    
+      scrChangeHypnosis(-1);        
+    }
+  }
+  
+} else {
+  //Otherwise, check for invalid press 
+  with (objDepthControl) {
+    if (keyboard_check_pressed(vk_anykey)) {    
+      scrChangeHypnosis(-1);
+    }
+  }
+}
+

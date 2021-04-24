@@ -2,7 +2,9 @@
 // You can write your code in this editor
 
 if (hypLevel > hypGoal) {
+  scrGoToNextDepth(curDepth);  
+}
 
-  scrGoToNextDepth(curDepth);
-  
+if (hypLevel < 0) {
+  hypLevel = 0; 
 }
