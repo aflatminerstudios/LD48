@@ -47,3 +47,10 @@ if (active) {
   }
 }
 
+
+//When watch is on right, make it shiny
+if (image_angle < 0) {
+  sprite_index = sprWatch; 
+} else {
+  sprite_index = sprWatchShiny; 
+}

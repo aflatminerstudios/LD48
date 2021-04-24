@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Depth 0 Watch Room",
+    "path": "folders/Objects/Depth 0 Watch Room.yy",
   },
   "resourceVersion": "1.0",
   "name": "objWatch",

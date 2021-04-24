@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "JohnWorking",
-    "path": "folders/Objects/JohnWorking.yy",
+    "name": "Depth Controls",
+    "path": "folders/Objects/Depth Controls.yy",
   },
   "resourceVersion": "1.0",
   "name": "objDepthControl1",
