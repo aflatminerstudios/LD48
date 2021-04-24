@@ -7,4 +7,12 @@
 
 function scrGoToNextDepth(curDepth){
   show_debug_message("Completed depth " + string(curDepth));
+  
+  switch(curDepth) {
+  
+  //Watch level
+  case 0:
+    room_goto(roomJohnWorking);    
+  }
+  
 }

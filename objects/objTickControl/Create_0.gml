@@ -5,3 +5,7 @@
 tickLength = 1;
 
 alarm[0] = tickLength * room_speed;
+
+
+//TODO: Remove for audio!
+audio_master_gain(0);
