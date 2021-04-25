@@ -3,10 +3,10 @@
 
 application_surface_draw_enable(false);
 
-brightness = shader_get_uniform(shd_bright_contrast, "brightness_amount");
+//brightness = shader_get_uniform(shd_bright_contrast, "brightness_amount");
 brightnessAmt = 0.0;
-contrast = shader_get_uniform(shd_bright_contrast, "contrast_amount");
-contrastAmt = 0.0;
+//contrast = shader_get_uniform(shd_bright_contrast, "contrast_amount");
+//contrastAmt = 0.0;
 
 
 
