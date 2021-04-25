@@ -46,7 +46,7 @@ if (hitBeat) {
     
   } else {
     
-     if (objTickControl.alarm[0] = 0 || objTickControl.alarm[1] = 0) {
+     if (scrIsTickStep()) {
       waiting = false;
       hitBeat = true;
       if (abs(curAngle - tickAngle) < 2) {
@@ -62,15 +62,12 @@ if (hitBeat) {
 
 bar.image_angle = curAngle;
 
-
-
 if (keyboard_check_pressed(ord("F"))) {
   curWeightPos = clamp(curWeightPos + weightMoveSpeed, 0.30, 1.0);
   hitBeat = false;
   waiting = false;  
   var totalSteps = ticktockSpeed * room_speed;
   curSteps =catchupSpeed * room_speed * (curSteps / totalSteps);
-  
 } else if (keyboard_check_pressed(ord("A"))) {
   curWeightPos = clamp(curWeightPos - weightMoveSpeed, 0.30, 1.0);
   hitBeat = false;
@@ -83,3 +80,19 @@ var weightDist = lerp(0, barLength, curWeightPos);
 weight.x = bar.x + lengthdir_x(weightDist * bar.image_xscale, bar.image_angle+90);
 weight.y = bar.y + lengthdir_y(weightDist * bar.image_yscale, bar.image_angle+90);
 weight.image_angle = curAngle;
+
+
+if (scrIsTickStep()) {
+  if (abs(ticktockSpeed - 1.0) <= 0.05) {
+    scrChangeHypnosis(1);
+    ticktockSpeed = 1;
+  } else {
+    with (objDepthControl2) {
+      if (hypLevel > 0) {
+        scrChangeHypnosis(-1); 
+      }
+    }
+  }
+}
+
+//show_debug_message(ticktockSpeed);

@@ -15,8 +15,8 @@ front.image_yscale = self.image_yscale;
 
 //tick time in seconds
 ticktockSpeed = 1;
-minTicktockSpeed = 0.2;
-maxTicktockSpeed = 2.5;
+minTicktockSpeed = 0.1;
+maxTicktockSpeed = 2;
 
 //number of steps in current tick-tock pattern
 curSteps = 0;
