@@ -38,6 +38,7 @@ curWeightPos = 0.9;
 weightMoveSpeed = 0.02;
 catchupSpeed = 0.7;
 
+
 //Has this hit a beat since adjusting
 hitBeat = true;
 waiting = false;

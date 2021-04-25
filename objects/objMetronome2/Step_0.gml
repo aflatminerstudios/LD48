@@ -95,4 +95,4 @@ if (scrIsTickStep()) {
   }
 }
 
-//show_debug_message(ticktockSpeed);
+//show_debug_message(string(ticktockSpeed) + ", " + string(curWeightPos));
