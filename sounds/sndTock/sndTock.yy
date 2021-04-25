@@ -13,8 +13,8 @@
   "soundFile": "sndTock.wav",
   "duration": 0.188016,
   "parent": {
-    "name": "John Working",
-    "path": "folders/John Working.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "sndTock",

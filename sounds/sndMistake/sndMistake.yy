@@ -13,8 +13,8 @@
   "soundFile": "sndMistake.wav",
   "duration": 0.150102,
   "parent": {
-    "name": "John Working",
-    "path": "folders/John Working.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "sndMistake",

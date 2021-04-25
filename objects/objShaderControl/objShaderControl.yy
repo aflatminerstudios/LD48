@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "JohnWorking",
-    "path": "folders/Objects/JohnWorking.yy",
+    "name": "LD48",
+    "path": "LD48.yyp",
   },
   "resourceVersion": "1.0",
   "name": "objShaderControl",
