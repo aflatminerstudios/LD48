@@ -11,7 +11,7 @@ isRotating = false;
 targetAngle = 0;
 startAngle = image_angle;
 curSteps = 0;
-stepsToRotate = 0.25 * room_speed;
+stepsToRotate = 0.2 * room_speed;
 easeScript = scrEaseInOutCubic;
 dirToRotate = 1;
 

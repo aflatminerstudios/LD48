@@ -26,13 +26,13 @@ if(global.dev_mode) {
 
 	else if (keyboard_check_pressed(ord("3")))
 		room_goto(roomDepth3);
-/*		
+		
 	else if (keyboard_check_pressed(ord("4")))
 		room_goto(roomDepth4);
 		
 	else if (keyboard_check_pressed(ord("5")))
 		room_goto(roomDepth5);
-*/
+
 	else if (keyboard_check_pressed(ord("0")))
 		room_goto(roomDepthFinal);
 

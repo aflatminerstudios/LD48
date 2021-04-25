@@ -16,6 +16,9 @@ if (isRotating) {
       image_angle -= 360; 
       
     }
+    if (image_angle < 0) {
+      image_angle += 360; 
+    }
   }
   curSteps += 1;
 } else {
@@ -27,5 +30,6 @@ if (isRotating) {
     startAngle = image_angle
     targetAngle = image_angle + 90 * dirToRotate;        
     curSteps = 0;
+    show_debug_message(targetAngle);
   }
 }

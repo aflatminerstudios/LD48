@@ -11,6 +11,8 @@ function scrInitialize() {
 	
 	scrSetupScribbleFonts();
 
+  
+  randomize();
 }
 
 function scrSetupScribbleFonts() {

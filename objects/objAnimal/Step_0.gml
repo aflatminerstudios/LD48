@@ -36,10 +36,12 @@ if (walkingToPoint) {
     }
     
     var nearestRotate = instance_nearest(x, y, objRotatingPad);
-    if (nearestRotate.image_angle = nearestRotate.targetRotation) {
+    show_debug_message(nearestRotate);
+    show_debug_message(string(nearestRotate.image_angle) + "< " + string(nearestRotate.targetRotation));
+    if (nearestRotate.image_angle == nearestRotate.targetRotation || nearestRotate.targetRotation == nearestRotate.targetAngle) {
       scrChangeHypnosis(1); 
     } else {
-      scrChangeHypnosis(-1); 
+      scrChangeHypnosis(decreaseAmount); 
     }
     
   }

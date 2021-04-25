@@ -1,6 +1,8 @@
 /// @description Initialize variables
-// You can write your code in this editor
+// You can write  your code in this editor
 if (live_call()) return live_result;
+
+sprite_index = choose(sprMouse, sprFinger);
 
 pointList = ds_list_create();
 var pos;
@@ -28,3 +30,5 @@ walkingToPoint = true;
 
 var distToPoint = point_distance(x, y, pointList[| whichPoint][0], pointList[| whichPoint][1]);
 moveSpeed = distToPoint / (ticktockSpeed * room_speed - 2);
+
+decreaseAmount = -1;

@@ -1,13 +1,13 @@
 {
-  "spriteId": {
-    "name": "sprMouse",
-    "path": "sprites/sprMouse/sprMouse.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objDepthControl",
+    "path": "objects/objDepthControl/objDepthControl.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,16 +22,16 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Depth 3 Path",
-    "path": "folders/Objects/Depth 3 Path.yy",
+    "name": "Depth Controls",
+    "path": "folders/Objects/Depth Controls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objAnimal",
+  "name": "objDepthControl4",
   "tags": [],
   "resourceType": "GMObject",
 }
