@@ -16,5 +16,5 @@ easeScript = scrEaseInOutCubic;
 dirToRotate = 1;
 
 
-targetRotation = 90;
+targetRotation = 180;
 showMessages = false;
