@@ -1,6 +1,8 @@
 /// @description Initialize variables
-// You can write your code in this editor
+// You can write  your code in this editor
 if (live_call()) return live_result;
+
+sprite_index = choose(sprMouse, sprFinger);
 
 pointList = ds_list_create();
 var pos;

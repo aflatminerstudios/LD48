@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprAnimal",
-    "path": "sprites/sprAnimal/sprAnimal.yy",
+    "name": "sprMouse",
+    "path": "sprites/sprMouse/sprMouse.yy",
   },
   "solid": false,
   "visible": true,
