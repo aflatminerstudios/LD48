@@ -6,7 +6,7 @@
 ///@description           Takes you to the next depth/level
 
 function scrGoToNextDepth(curDepth){
-  show_debug_message("Completed depth " + string(curDepth));
+	debug_log("Completed depth " + string(curDepth));
   
   switch(curDepth) {
   
