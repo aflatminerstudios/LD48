@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objDepthControl",
+    "path": "objects/objDepthControl/objDepthControl.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,7 +31,7 @@
     "path": "folders/Objects/Depth Controls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objDepthControl",
+  "name": "objDepthControl2",
   "tags": [],
   "resourceType": "GMObject",
 }

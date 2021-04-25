@@ -25,6 +25,8 @@ if (curSteps <= activeBuffer || (totalSteps - curSteps <= activeBuffer)) {
   if (hitObj == noone) {
     hitObj = instance_create_depth(x, y, depth - 1, objWatchHit);
     hitObj.parent = self.id;
+    hitObj.image_xscale = image_xscale;
+    hitObj.image_yscale = image_yscale;
   }
 } else {
 
