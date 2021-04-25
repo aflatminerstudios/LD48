@@ -8,7 +8,7 @@ var totalSteps = ticktockSpeed * room_speed;
 
 //var curPct = curSteps / totalSteps;
 
-curAngle = script_execute(easeScript, curSteps, tockAngle, tickAngle - tockAngle, totalSteps);
+curAngle = easeScript(curSteps, tockAngle, tickAngle - tockAngle, totalSteps);
 bar.image_angle = curAngle;
 
 weight.x = bar.x + lengthdir_x(180 * bar.image_xscale, bar.image_angle+90);
@@ -28,7 +28,6 @@ if (curSteps <= activeBuffer || (totalSteps - curSteps <= activeBuffer)) {
   active = true;
 } else {
   active = false;
-  pushed = false;
 }
 
 
@@ -46,7 +45,6 @@ if (active) {
     
     if (keyboard_check_pressed(theKey)) {    
       scrChangeHypnosis(1);
-      pushed = true;
     } else if (keyboard_check_pressed(vk_anykey)) {    
       scrChangeHypnosis(-1);        
     }

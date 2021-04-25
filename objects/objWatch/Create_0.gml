@@ -22,6 +22,5 @@ active = false;
 activeBuffer = room_speed / 3
 
 //Did user push button
-pushed = false;
 
 hitObj = noone;

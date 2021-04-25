@@ -7,7 +7,7 @@ var totalSteps = ticktockSpeed * room_speed;
 
 //var curPct = curSteps / totalSteps;
 
-var curAngle = script_execute(easeScript, curSteps, tockAngle, tickAngle - tockAngle, totalSteps);
+var curAngle = easeScript(curSteps, tockAngle, tickAngle - tockAngle, totalSteps);
 image_angle = curAngle;
 
 
@@ -29,8 +29,7 @@ if (curSteps <= activeBuffer || (totalSteps - curSteps <= activeBuffer)) {
 } else {
 
   active = false;
-  pushed = false;
-  
+
   if (hitObj != noone) {
     with (hitObj) {
       instance_destroy(); 
@@ -46,7 +45,6 @@ if (active) {
   with (objDepthControl) {
     if (keyboard_check_pressed(ord("A"))) {    
       scrChangeHypnosis(1);
-      pushed = true;
     } else if (keyboard_check_pressed(vk_anykey)) {    
       scrChangeHypnosis(-1);        
     }
