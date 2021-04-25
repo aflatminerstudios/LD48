@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprAnimal",
-    "path": "sprites/sprAnimal/sprAnimal.yy",
+    "name": "sprMetronomeGear",
+    "path": "sprites/sprMetronomeGear/sprMetronomeGear.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Depth 3 Path",
-    "path": "folders/Objects/Depth 3 Path.yy",
+    "name": "Depth 1 Metronome",
+    "path": "folders/Objects/Depth 1 Metronome.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objAnimal",
+  "name": "objMetronomeGear",
   "tags": [],
   "resourceType": "GMObject",
 }
