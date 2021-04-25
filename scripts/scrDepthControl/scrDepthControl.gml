@@ -13,10 +13,13 @@ function scrGoToNextDepth(curDepth){
   //Watch level
   case 0:
     room_goto(roomDepth1);    
+    break;
   case 1:
     room_goto(roomDepth2);
+    break;
   default:
     room_goto(roomDepthFinal);
+    break;
   }
   
 }

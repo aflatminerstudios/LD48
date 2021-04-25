@@ -3,8 +3,17 @@
 
 if (live_call()) return live_result;
 
-bar = instance_create_depth(x, y + 118, depth - 1, objMetronomeBar);
+bar = instance_create_depth(x, y + 25, depth - 1, objMetronomeBar);
 weight = instance_create_depth(x, y - 60, depth - 2, objMetronomeWeight);
+front = instance_create_depth(x, y, depth - 3, objMetronomeFront);
+
+bar.image_xscale = self.image_xscale;
+bar.image_yscale = self.image_yscale;
+weight.image_xscale = self.image_xscale;
+weight.image_yscale = self.image_yscale;
+front.image_xscale = self.image_xscale;
+front.image_yscale = self.image_yscale;
+
 
 //tick time in seconds
 ticktockSpeed = 1;
