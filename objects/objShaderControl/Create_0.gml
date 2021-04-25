@@ -39,3 +39,15 @@ brightnessBegin = 0;
 brightnessEnd = -1.0;
 blurOffsetBegin = 0.0;
 blurOffsetEnd = 0.10;
+
+
+// Set fade in (turn off for level 1)
+fadingOut = true;
+brightnessAmt = -1.0;
+fadeTarget = 0.0;
+fadeAmount = 1.0;
+fadeDir = -1;
+fadeSpeed = fadeSpeedBase * 3;
+nextLevel = false;
+alarm[0] = 1;
+
