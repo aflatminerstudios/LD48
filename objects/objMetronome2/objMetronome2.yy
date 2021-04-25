@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprMetronome",
-    "path": "sprites/sprMetronome/sprMetronome.yy",
+    "name": "sprMetronome2",
+    "path": "sprites/sprMetronome2/sprMetronome2.yy",
   },
   "solid": false,
   "visible": true,
