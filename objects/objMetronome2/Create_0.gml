@@ -34,7 +34,7 @@ bar.image_angle = curAngle;
 
 //for setting/moving weight
 barLength = 375;
-curWeightPos = 0.24;
+curWeightPos = 0.9;
 weightMoveSpeed = 0.02;
 catchupSpeed = 0.7;
 
