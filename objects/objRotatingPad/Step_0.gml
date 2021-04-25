@@ -7,16 +7,17 @@ if (isRotating) {
   //Rotate 
   var curAngle = easeScript(curSteps, startAngle, targetAngle - startAngle, stepsToRotate);
   image_angle = curAngle;
-  
+
   
   if (abs(targetAngle - curAngle) < 1) {
     image_angle = targetAngle;
     isRotating = false;
     if (image_angle >= 360) {
       image_angle -= 360; 
+      
     }
   }
-  curSteps += dirToRotate;
+  curSteps += 1;
 } else {
     
   //Check to see if you should rotate
