@@ -76,6 +76,11 @@ if (keyboard_check_pressed(ord("F"))) {
   curSteps = catchupSpeed * room_speed * (curSteps / totalSteps);
 }
 
+angleDist = lerp(0, 90, curWeightPos - 0.50 * 6);
+//show_debug_message(curWeightPos);
+gear1.image_angle = 135 + angleDist;
+gear2.image_angle = 225 - angleDist;
+
 var weightDist = lerp(0, barLength, curWeightPos);
 weight.x = bar.x + lengthdir_x(weightDist * bar.image_xscale, bar.image_angle+90);
 weight.y = bar.y + lengthdir_y(weightDist * bar.image_yscale, bar.image_angle+90);

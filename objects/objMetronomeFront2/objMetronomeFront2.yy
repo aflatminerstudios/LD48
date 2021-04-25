@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprMetronome2",
-    "path": "sprites/sprMetronome2/sprMetronome2.yy",
+    "name": "sprMetronomeFront2",
+    "path": "sprites/sprMetronomeFront2/sprMetronomeFront2.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +28,7 @@
     "path": "folders/Objects/Depth 2 Metronome.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objMetronome2",
+  "name": "objMetronomeFront2",
   "tags": [],
   "resourceType": "GMObject",
 }
