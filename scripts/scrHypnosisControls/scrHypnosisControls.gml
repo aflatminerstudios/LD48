@@ -7,6 +7,10 @@ function scrChangeHypnosis(amount){
   with (objDepthControl) {
     hypLevel += amount; 
     show_debug_message("Hypnosis level: " + string(hypLevel));
+    
+    if (amount < 0) {
+      audio_play_sound(sndMistake, 100, false); 
+    }
   }
 }
 

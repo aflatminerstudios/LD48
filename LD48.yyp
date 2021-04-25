@@ -16,6 +16,7 @@
     {"id":{"name":"GMLive_seekSetOp","path":"scripts/GMLive_seekSetOp/GMLive_seekSetOp.yy",},"order":6,},
     {"id":{"name":"scribble","path":"scripts/scribble/scribble.yy",},"order":8,},
     {"id":{"name":"fntMermaid20","path":"fonts/fntMermaid20/fntMermaid20.yy",},"order":0,},
+    {"id":{"name":"sndMistake","path":"sounds/sndMistake/sndMistake.yy",},"order":4,},
     {"id":{"name":"GMLive","path":"scripts/GMLive/GMLive.yy",},"order":4,},
     {"id":{"name":"objInitializeControl","path":"objects/objInitializeControl/objInitializeControl.yy",},"order":0,},
     {"id":{"name":"scribble_typewriter_add_character_delay","path":"scripts/scribble_typewriter_add_character_delay/scribble_typewriter_add_character_delay.yy",},"order":2,},
