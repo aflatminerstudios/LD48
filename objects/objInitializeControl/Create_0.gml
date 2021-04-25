@@ -13,4 +13,4 @@ if(global.dev_mode)
 
 
 //room_goto(roomLogo)
-room_goto(roomMain)
+room_goto(roomTitle)
