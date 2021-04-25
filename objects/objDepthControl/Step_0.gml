@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 if (hypLevel >= hypGoal) {
-  scrFadeOut(shaderControl, 1.0, true);
+  scrFadeOut(shaderControl, 1.0, true, 1.0);
 }
 
 if (hypLevel < 0) {
@@ -14,3 +14,4 @@ if (hypLevel >= hypGoal / 2) {
 } else {
   scrFadeOut(shaderControl, 0.0, false, 1.0); 
 }
+
