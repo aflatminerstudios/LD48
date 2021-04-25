@@ -10,6 +10,7 @@
     {"id":{"name":"AFlatLib_Logging","path":"scripts/AFlatLib_Logging/AFlatLib_Logging.yy",},"order":3,},
     {"id":{"name":"scribble_font_set_style_family","path":"scripts/scribble_font_set_style_family/scribble_font_set_style_family.yy",},"order":5,},
     {"id":{"name":"__scribble_class_typist","path":"scripts/__scribble_class_typist/__scribble_class_typist.yy",},"order":8,},
+    {"id":{"name":"objDepthControl3","path":"objects/objDepthControl3/objDepthControl3.yy",},"order":4,},
     {"id":{"name":"objDebugControl","path":"objects/objDebugControl/objDebugControl.yy",},"order":2,},
     {"id":{"name":"fntMermaid36","path":"fonts/fntMermaid36/fntMermaid36.yy",},"order":2,},
     {"id":{"name":"scribble_font_has_character","path":"scripts/scribble_font_has_character/scribble_font_has_character.yy",},"order":3,},
