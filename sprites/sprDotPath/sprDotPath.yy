@@ -93,8 +93,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Micha Working",
-    "path": "folders/Micha Working.yy",
+    "name": "Depth 3 Path",
+    "path": "folders/Sprites/Depth 3 Path.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprDotPath",
