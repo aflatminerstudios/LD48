@@ -52,4 +52,7 @@ catchupSpeed = 0.7;
 
 //Has this hit a beat since adjusting
 hitBeat = true;
+
+//For pinched hand
+handObject = noone;
 waiting = false;

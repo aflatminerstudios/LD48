@@ -54,6 +54,11 @@ if (hitBeat) {
       } else if (abs(curAngle - tockAngle) < 2) {
         curSteps = 0;
       }
+      
+      with (objPinchHand) {
+        instance_destroy();
+      }
+      handObject = noone;
      }
   }
   
@@ -68,12 +73,26 @@ if (keyboard_check_pressed(ord("F"))) {
   waiting = false;  
   var totalSteps = ticktockSpeed * room_speed;
   curSteps =catchupSpeed * room_speed * (curSteps / totalSteps);
+  if (handObject == noone) {
+    handObject = instance_create_depth(weight.x, weight.y, weight.depth - 1, objPinchHand);
+    handObject.parent = weight;
+  }
 } else if (keyboard_check_pressed(ord("A"))) {
   curWeightPos = clamp(curWeightPos - weightMoveSpeed, 0.30, 1.0);
   hitBeat = false;
   waiting = false;
   var totalSteps = ticktockSpeed * room_speed;
   curSteps = catchupSpeed * room_speed * (curSteps / totalSteps);
+  if (handObject == noone) {
+    handObject = instance_create_depth(weight.x, weight.y, weight.depth - 1, objPinchHand);
+    handObject.parent = weight;
+  }
+}
+
+with (handObject) {
+  image_angle = parent.image_angle;
+  x = parent.x - 3 + lengthdir_x(sprite_width / 2, image_angle);
+  y = parent.y - 3 + lengthdir_y(sprite_width / 2, image_angle); 
 }
 
 angleDist = lerp(0, 90, curWeightPos - 0.50 * 6);
