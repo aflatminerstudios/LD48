@@ -8,3 +8,8 @@ function scrCheckAKey(){
 function scrCheckFKey() {
   return keyboard_check_pressed(ord("F"));
 }
+
+function scrCheckKeyFalse() {
+  return false; 
+}
+
