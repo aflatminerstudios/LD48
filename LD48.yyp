@@ -128,6 +128,7 @@
     {"id":{"name":"sprWatchBG","path":"sprites/sprWatchBG/sprWatchBG.yy",},"order":0,},
     {"id":{"name":"scribble_font_add","path":"scripts/scribble_font_add/scribble_font_add.yy",},"order":0,},
     {"id":{"name":"GMLive_vm","path":"scripts/GMLive_vm/GMLive_vm.yy",},"order":5,},
+    {"id":{"name":"sprDotPath","path":"sprites/sprDotPath/sprDotPath.yy",},"order":6,},
     {"id":{"name":"sprWatchHit","path":"sprites/sprWatchHit/sprWatchHit.yy",},"order":5,},
     {"id":{"name":"roomMichaWorking","path":"rooms/roomMichaWorking/roomMichaWorking.yy",},"order":0,},
     {"id":{"name":"sprWatch","path":"sprites/sprWatch/sprWatch.yy",},"order":1,},
