@@ -8,3 +8,4 @@ hypLevel = 0;
 hypGoal = 6;
 
 curDepth = 3;
+
