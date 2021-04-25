@@ -11,12 +11,12 @@ shader_set(shd_bright_contrast);
 shader_set_uniform_f(brightness, brightnessAmt);
 shader_set_uniform_f(contrast, contrastAmt);
 
-/*shader_set(shd_radial_blur);
+shader_set(shd_radial_blur);
 shader_set_uniform_f(radialBlurOffset, radialBlurOffsetAmt);
-shader_set_uniform_f(radialBrightness, radialBrightnessAmt);
+shader_set_uniform_f(radialBrightness, (brightnessAmt + 1.0));
 shader_set_uniform_f(mousePos, mousePos_x, mousePos_y);
 shader_set_uniform_f(resolution, resolution_x, resolution_y);
-*/
+
 
 
 draw_surface(application_surface, 0, 0);

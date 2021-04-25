@@ -21,6 +21,6 @@ if (fadingOut) {
   }
   
   brightnessAmt = lerp(brightnessBegin, brightnessEnd, fadeAmount);
-  //radialBlurOffsetAmt = lerp(blurOffsetBegin, blurOffsetBegin, fadeAmount);
+ radialBlurOffsetAmt = lerp(blurOffsetBegin, blurOffsetEnd, fadeAmount);
 
 }

@@ -38,7 +38,7 @@ nextLevel = false;
 brightnessBegin = 0;
 brightnessEnd = -1.0;
 blurOffsetBegin = 0.0;
-blurOffsetEnd = 0.10;
+blurOffsetEnd = 0.25;
 
 
 // Set fade in (turn off for level 1)
