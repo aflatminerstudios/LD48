@@ -20,6 +20,12 @@ function scrGoToNextDepth(curDepth){
   case 2:
     room_goto(roomDepth3);
     break;
+  case 3:
+    room_goto(roomDepth4);
+    break;
+  case 4:
+    room_goto(roomDepth5);
+    break;
   default:
     room_goto(roomDepthFinal);
     break;
