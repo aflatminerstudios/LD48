@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sprMetronome",
+    "path": "sprites/sprMetronome/sprMetronome.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -24,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Depth Controls",
-    "path": "folders/Objects/Depth Controls.yy",
+    "name": "Depth 2 Metronome",
+    "path": "folders/Objects/Depth 2 Metronome.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objDepthControl",
+  "name": "objMetronome2",
   "tags": [],
   "resourceType": "GMObject",
 }
