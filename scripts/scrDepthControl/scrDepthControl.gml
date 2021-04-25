@@ -14,7 +14,7 @@ function scrGoToNextDepth(curDepth){
   case 0:
     room_goto(roomDepth1);    
   case 1:
-    room_goto(roomJohnWorking);
+    room_goto(roomDepth2);
   default:
     room_goto(roomDepthFinal);
   }
