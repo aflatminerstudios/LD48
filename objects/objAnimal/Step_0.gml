@@ -7,6 +7,8 @@ if (walkingToPoint) {
   
   //Move towards point
   var curDist = point_distance(x, y, pointList[| whichPoint][0], pointList[| whichPoint][1]);  
+  var curDir = point_direction(x, y, pointList[| whichPoint][0], pointList[| whichPoint][1]);  
+  image_angle = curDir;
  //show_debug_message("Begin: " + string(x) + ", " + string(y));
 //  show_debug_message("Target: " + string(pointList[| whichPoint][0]) + ", " + string(pointList[| whichPoint][1]));
   //show_debug_message(string(curDist) + ", " + string(moveSpeed));
