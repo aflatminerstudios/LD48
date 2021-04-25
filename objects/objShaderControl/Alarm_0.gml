@@ -14,8 +14,8 @@ if (fadingOut) {
     fadingOut = false;
     
     if (nextLevel) {
-      with (objDepthControl) {
-        alarm[0] = 0.5 * room_speed;
+      with (objTickControl) {
+        gotoNextLevel = true;
       }      
     }
   }

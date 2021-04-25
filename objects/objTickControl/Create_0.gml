@@ -9,6 +9,8 @@ alarm[0] = tickLength * room_speed;
 tickSound = sndTick;
 tockSound = sndTock;
 
+gotoNextLevel = false;
+
 
 //TODO: Remove for audio!
 audio_master_gain(0);

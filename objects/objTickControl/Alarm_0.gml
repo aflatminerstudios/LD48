@@ -3,3 +3,9 @@
 
 audio_play_sound(tickSound, 100, false);
 alarm[1] = tickLength * room_speed;
+
+if (gotoNextLevel) {
+  with (objDepthControl) {
+    scrGoToNextDepth(curDepth); 
+  }
+}
