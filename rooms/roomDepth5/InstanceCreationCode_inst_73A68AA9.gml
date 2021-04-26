@@ -2,4 +2,4 @@ keyPressCheck = scrCheckFKey;
 keySprite = sprFPad;
 
 dirToRotate = -1;
-targetRotation = 180;
+targetRotation = 270;
