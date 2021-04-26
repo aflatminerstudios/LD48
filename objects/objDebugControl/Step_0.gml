@@ -39,5 +39,6 @@ if(global.dev_mode) {
 	else if (keyboard_check_pressed(ord("0")))
 		room_goto(roomDepthFinal);
 
-	
+	else if (keyboard_check_pressed(ord("L")))
+		room_goto(roomLogo);	
 }

@@ -17,3 +17,5 @@ with (shaderControl) {
   alarm[0] = -1;
 }
 
+ready = false;
+alarm[0] = room_speed / 2;

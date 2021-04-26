@@ -32,6 +32,7 @@
     {"id":{"name":"scribble","path":"scripts/scribble/scribble.yy",},"order":8,},
     {"id":{"name":"objTextBoxDepth0","path":"objects/objTextBoxDepth0/objTextBoxDepth0.yy",},"order":1,},
     {"id":{"name":"fntMermaid20","path":"fonts/fntMermaid20/fntMermaid20.yy",},"order":0,},
+    {"id":{"name":"sprLogo","path":"sprites/sprLogo/sprLogo.yy",},"order":12,},
     {"id":{"name":"objPinchHand","path":"objects/objPinchHand/objPinchHand.yy",},"order":2,},
     {"id":{"name":"sndMistake","path":"sounds/sndMistake/sndMistake.yy",},"order":2,},
     {"id":{"name":"sprMetronome2","path":"sprites/sprMetronome2/sprMetronome2.yy",},"order":0,},
