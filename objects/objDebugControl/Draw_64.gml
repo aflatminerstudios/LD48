@@ -6,4 +6,6 @@ if (live_call()) return live_result;
 draw_self();
 var roomName = room_get_name(room)
 
-scribble("[c_white][fa_left][fa_top][fntMermaid20] "+ roomName).draw(10, 100);
+var centerY = (bbox_top+bbox_bottom)/2;
+scribble("[c_black][fa_left][fa_middle][fntMermaid20] "+ roomName).draw(bbox_right+5, centerY+1);
+scribble("[c_white][fa_left][fa_middle][fntMermaid20] "+ roomName).draw(bbox_right+5-1, centerY-1);
