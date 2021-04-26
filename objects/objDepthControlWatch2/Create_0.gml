@@ -5,6 +5,6 @@
 event_inherited();
 
 hypLevel = 0;
-hypGoal = 5;
+hypGoal = 6;
 
 curDepth = 6;

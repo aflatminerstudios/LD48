@@ -11,4 +11,4 @@ if (logoDisplayTime <= 0)
 
 
 if (shouldGoToTitle)
-	room_goto(roomTitle)
+	room_goto(roomTitle2)

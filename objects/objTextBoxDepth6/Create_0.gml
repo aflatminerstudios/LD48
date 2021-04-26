@@ -9,7 +9,7 @@ textScript[2] = "[#e53340][wave]...we'll just come back [slant]with[/slant]  you
 
 
 initialDelay = room_speed;
-lineTime = room_speed * 3;
+lineTime = room_speed * 2.5;
 activeLine = -1;
 
 alarm[0] = initialDelay;
