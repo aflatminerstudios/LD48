@@ -40,3 +40,6 @@ alarm[0] = 1;
 
 //So animal goes on top of things
 depth -= 1;
+
+frameObj = noone;
+eyeObj = noone;

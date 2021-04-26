@@ -74,3 +74,14 @@ with (hitObj) {
   y = parent.y + lengthdir_y(940 * parent.image_yscale, parent.image_angle - 90);
 }
 
+
+if (eyesObj != noone) {
+  //For moving eyes
+  if (objTickControl.alarm[0] > 0) {
+    pct = objTickControl.alarm[0] / room_speed;
+  } else {
+    pct = 1 - objTickControl.alarm[1] / room_speed;
+  }
+
+  eyesObj.x = eyesObj.baseX + lerp(-10, 10, pct);
+}

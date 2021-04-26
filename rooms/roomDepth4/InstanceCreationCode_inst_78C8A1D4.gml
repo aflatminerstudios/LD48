@@ -29,3 +29,8 @@ walkingToPoint = true;
 var distToPoint = point_distance(x, y, pointList[| whichPoint][0], pointList[| whichPoint][1]);
 moveSpeed = distToPoint / (ticktockSpeed * room_speed - 2);
 decreaseAmount = -3;
+
+frameObj = instance_create_depth(400, 300, depth + 2, objD4Frame);
+eyesObj = instance_create_depth(400, 300, depth + 1, objD4Eyes);
+eyesObj.baseX = 400;
+eyesObj.baseY = 300;

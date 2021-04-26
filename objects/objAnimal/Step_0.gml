@@ -55,3 +55,15 @@ if (walkingToPoint) {
     moveSpeed = distToPoint / (ticktockSpeed * room_speed - 2);
   }
 }
+
+
+if (eyesObj != noone) {
+  //For moving eyes
+  if (objTickControl.alarm[0] > 0) {
+    pct = objTickControl.alarm[0] / room_speed;
+  } else {
+    pct = 1 - objTickControl.alarm[1] / room_speed;
+  }
+
+  eyesObj.x = eyesObj.baseX + lerp(-10, 10, pct);
+}
