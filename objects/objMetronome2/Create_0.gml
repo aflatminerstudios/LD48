@@ -59,8 +59,5 @@ hitBeat = true;
 handObject = noone;
 waiting = false;
 
-speedBuffer = 0.05;
+speedBuffer = 0.07;
 
-//For moving eyes
-eyesTotalMove = 20;
-eyesStep = 0;

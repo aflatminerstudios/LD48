@@ -105,7 +105,6 @@ weight.x = bar.x + lengthdir_x(weightDist * bar.image_xscale, bar.image_angle+90
 weight.y = bar.y + lengthdir_y(weightDist * bar.image_yscale, bar.image_angle+90);
 weight.image_angle = curAngle;
 
-
 //show_debug_message(ticktockSpeed);
 if (scrIsTickStep()) {
   if (abs(ticktockSpeed - 1.0) <= speedBuffer) {
@@ -129,4 +128,4 @@ if (objTickControl.alarm[0] > 0) {
 
 eyes.y = y + lerp(-5, 20, pct);
 
-//show_debug_message(string(ticktockSpeed) + ", " + string(curWeightPos));
+show_debug_message(string(ticktockSpeed) + ", " + string(curWeightPos));
