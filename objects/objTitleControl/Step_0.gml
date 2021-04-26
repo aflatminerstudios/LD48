@@ -4,8 +4,6 @@
 if (live_call()) return live_result;
 
 
-if (global.dev_mode && keyboard_check_pressed(ord("J"))) {
-	room_goto(roomJohnWorking); 
-} else if (keyboard_check_pressed(vk_anykey)) {
+if (keyboard_check_pressed(vk_anykey)) {
 	room_goto(roomMain);
 }
