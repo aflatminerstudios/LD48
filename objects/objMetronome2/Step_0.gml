@@ -73,9 +73,11 @@ if (keyboard_check_pressed(ord("F"))) {
   waiting = false;  
   var totalSteps = ticktockSpeed * room_speed;
   curSteps =catchupSpeed * room_speed * (curSteps / totalSteps);
+	audio_play_sound(sndSqueak, 100, false);
   if (handObject == noone) {
     handObject = instance_create_depth(weight.x, weight.y, weight.depth - 1, objPinchHand);
     handObject.parent = weight;
+		//audio_play_sound(sndSqueak, 100, false);
   }
 } else if (keyboard_check_pressed(ord("A"))) {
   curWeightPos = clamp(curWeightPos - weightMoveSpeed, 0.30, 1.0);
@@ -83,9 +85,11 @@ if (keyboard_check_pressed(ord("F"))) {
   waiting = false;
   var totalSteps = ticktockSpeed * room_speed;
   curSteps = catchupSpeed * room_speed * (curSteps / totalSteps);
+	audio_play_sound(sndSqueak, 100, false);
   if (handObject == noone) {
     handObject = instance_create_depth(weight.x, weight.y, weight.depth - 1, objPinchHand);
     handObject.parent = weight;
+		//audio_play_sound(sndSqueak, 100, false);
   }
 }
 

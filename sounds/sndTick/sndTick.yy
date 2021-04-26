@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sndTick.wav",
-  "duration": 0.120011,
+  "duration": 0.101463,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

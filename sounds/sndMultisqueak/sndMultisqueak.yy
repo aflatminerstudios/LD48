@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndMistake.wav",
-  "duration": 0.214751,
+  "soundFile": "sndMultisqueak.wav",
+  "duration": 1.334909,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sndMistake",
+  "name": "sndMultisqueak",
   "tags": [],
   "resourceType": "GMSound",
 }

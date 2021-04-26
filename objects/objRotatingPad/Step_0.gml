@@ -31,5 +31,6 @@ if (isRotating) {
     targetAngle = image_angle + 90 * dirToRotate;        
     curSteps = 0;
     show_debug_message(targetAngle);
+		audio_play_sound(sndGearSpin, 100, false);
   }
 }

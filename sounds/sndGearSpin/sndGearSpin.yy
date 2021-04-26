@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndMistake.wav",
-  "duration": 0.214751,
+  "soundFile": "sndGearSpin.wav",
+  "duration": 0.226633,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sndMistake",
+  "name": "sndGearSpin",
   "tags": [],
   "resourceType": "GMSound",
 }
