@@ -99,7 +99,7 @@ with (handObject) {
   y = parent.y - 3 + lengthdir_y(sprite_width / 2, image_angle); 
 }
 
-angleDist = lerp(0, 90, curWeightPos - 0.50 * 6);
+angleDist = lerp(0, 90, curWeightPos - 2.95);
 //show_debug_message(curWeightPos);
 gear1.image_angle = 135 + angleDist;
 gear2.image_angle = 225 - angleDist;

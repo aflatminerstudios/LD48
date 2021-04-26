@@ -13,4 +13,4 @@ gotoNextLevel = false;
 
 
 //TODO: Remove for audio!
-//audio_master_gain(0);
+audio_master_gain(0);
