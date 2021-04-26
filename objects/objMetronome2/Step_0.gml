@@ -106,7 +106,7 @@ weight.y = bar.y + lengthdir_y(weightDist * bar.image_yscale, bar.image_angle+90
 weight.image_angle = curAngle;
 
 
-show_debug_message(ticktockSpeed);
+//show_debug_message(ticktockSpeed);
 if (scrIsTickStep()) {
   if (abs(ticktockSpeed - 1.0) <= speedBuffer) {
     scrChangeHypnosis(1);

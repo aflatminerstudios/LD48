@@ -7,6 +7,8 @@ weight = instance_create_depth(x, y - 60, depth - 2, objMetronomeWeight);
 gear1 = instance_create_depth(x - 35, y + 30, depth - 3, objMetronomeGear);
 gear2 = instance_create_depth(x + 35, y + 30, depth - 3, objMetronomeGear);
 front = instance_create_depth(x, y, depth - 10, objMetronomeFront2);
+eyes = instance_create_depth(x, y, depth - 5, objMetroEyes);
+
 
 bar.image_xscale = self.image_xscale;
 bar.image_yscale = self.image_yscale;
@@ -58,3 +60,7 @@ handObject = noone;
 waiting = false;
 
 speedBuffer = 0.05;
+
+//For moving eyes
+eyesTotalMove = 20;
+eyesStep = 0;

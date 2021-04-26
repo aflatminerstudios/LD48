@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 57,
-  "bbox_right": 539,
-  "bbox_top": 33,
-  "bbox_bottom": 899,
+  "bbox_left": 83,
+  "bbox_right": 417,
+  "bbox_top": 97,
+  "bbox_bottom": 517,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"255fe3b3-ada2-4bbd-9f4b-7ee5064d1ce3","path":"sprites/sprMetronome2/sprMetronome2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"255fe3b3-ada2-4bbd-9f4b-7ee5064d1ce3","path":"sprites/sprMetronome2/sprMetronome2.yy",},"LayerId":{"name":"1b140a32-02f9-44e0-85a7-9bb0dad1ffb9","path":"sprites/sprMetronome2/sprMetronome2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprMetronome2","path":"sprites/sprMetronome2/sprMetronome2.yy",},"resourceVersion":"1.0","name":"255fe3b3-ada2-4bbd-9f4b-7ee5064d1ce3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fc4d4e7d-ceb0-48de-99c7-63850adcc7a5","path":"sprites/sprMetroEyes/sprMetroEyes.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fc4d4e7d-ceb0-48de-99c7-63850adcc7a5","path":"sprites/sprMetroEyes/sprMetroEyes.yy",},"LayerId":{"name":"b03c3db8-b796-4ef3-a91a-62335feba68e","path":"sprites/sprMetroEyes/sprMetroEyes.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprMetroEyes","path":"sprites/sprMetroEyes/sprMetroEyes.yy",},"resourceVersion":"1.0","name":"fc4d4e7d-ceb0-48de-99c7-63850adcc7a5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprMetronome2","path":"sprites/sprMetronome2/sprMetronome2.yy",},
+    "spriteId": {"name":"sprMetroEyes","path":"sprites/sprMetroEyes/sprMetroEyes.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"aff33ff8-0376-42d4-ad96-6952ec7c86f0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"255fe3b3-ada2-4bbd-9f4b-7ee5064d1ce3","path":"sprites/sprMetronome2/sprMetronome2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"41ba50fe-9344-4300-8c43-5884c93aba4a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fc4d4e7d-ceb0-48de-99c7-63850adcc7a5","path":"sprites/sprMetroEyes/sprMetroEyes.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 450,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprMetronome2","path":"sprites/sprMetronome2/sprMetronome2.yy",},
+    "parent": {"name":"sprMetroEyes","path":"sprites/sprMetroEyes/sprMetroEyes.yy",},
     "resourceVersion": "1.3",
-    "name": "sprMetronome2",
+    "name": "sprMetroEyes",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1b140a32-02f9-44e0-85a7-9bb0dad1ffb9","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b03c3db8-b796-4ef3-a91a-62335feba68e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Depth 2 Metronome.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprMetronome2",
+  "name": "sprMetroEyes",
   "tags": [],
   "resourceType": "GMSprite",
 }
