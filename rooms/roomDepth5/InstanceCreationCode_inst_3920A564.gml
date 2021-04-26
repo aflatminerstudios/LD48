@@ -33,3 +33,4 @@ walkingToPoint = true;
 var distToPoint = point_distance(x, y, pointList[| whichPoint][0], pointList[| whichPoint][1]);
 moveSpeed = distToPoint / (ticktockSpeed * room_speed - 2);
 decreaseAmount = -5;
+

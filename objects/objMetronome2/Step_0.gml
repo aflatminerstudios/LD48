@@ -132,4 +132,4 @@ if (objTickControl.alarm[0] > 0) {
 
 eyes.y = y + lerp(-5, 20, pct);
 
-show_debug_message(string(ticktockSpeed) + ", " + string(curWeightPos));
+//show_debug_message(string(ticktockSpeed) + ", " + string(curWeightPos));

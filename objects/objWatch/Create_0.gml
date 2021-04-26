@@ -24,3 +24,6 @@ activeBuffer = room_speed / 3
 //Did user push button
 
 hitObj = noone;
+
+frameObj = noone;
+eyesObj = noone;
