@@ -120,4 +120,13 @@ if (scrIsTickStep()) {
   }
 }
 
+//For moving eyes
+if (objTickControl.alarm[0] > 0) {
+  pct = objTickControl.alarm[0] / room_speed;
+} else {
+  pct = 1 - objTickControl.alarm[1] / room_speed;
+}
+
+eyes.y = y + lerp(-5, 20, pct);
+
 //show_debug_message(string(ticktockSpeed) + ", " + string(curWeightPos));

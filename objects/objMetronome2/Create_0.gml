@@ -7,7 +7,7 @@ weight = instance_create_depth(x, y - 60, depth - 2, objMetronomeWeight);
 gear1 = instance_create_depth(x - 35, y + 30, depth - 3, objMetronomeGear);
 gear2 = instance_create_depth(x + 35, y + 30, depth - 3, objMetronomeGear);
 front = instance_create_depth(x, y, depth - 10, objMetronomeFront2);
-eyes = instance_create_depth(x, y, depth - 5, objMetroEyes);
+eyes = instance_create_depth(x, y, depth - 1, objMetroEyes);
 
 
 bar.image_xscale = self.image_xscale;
