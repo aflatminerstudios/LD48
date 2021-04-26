@@ -26,6 +26,9 @@ function scrGoToNextDepth(curDepth){
   case 4:
     room_goto(roomDepth5);
     break;
+  case 5:
+    room_goto(roomDepthSecondWatch);
+    break;
   default:
     room_goto(roomDepthFinal);
     break;

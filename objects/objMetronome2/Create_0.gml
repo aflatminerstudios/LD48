@@ -46,7 +46,7 @@ bar.image_angle = curAngle;
 //for setting/moving weight
 barLength = 375;
 curWeightPos = 0.9;
-weightMoveSpeed = 0.02;
+weightMoveSpeed = 0.03;
 catchupSpeed = 0.7;
 
 
@@ -56,3 +56,5 @@ hitBeat = true;
 //For pinched hand
 handObject = noone;
 waiting = false;
+
+speedBuffer = 0.05;

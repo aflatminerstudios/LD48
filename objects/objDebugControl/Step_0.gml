@@ -33,6 +33,9 @@ if(global.dev_mode) {
 	else if (keyboard_check_pressed(ord("5")))
 		room_goto(roomDepth5);
 
+  else if (keyboard_check_pressed(ord("6")))
+		room_goto(roomDepthSecondWatch);
+
 	else if (keyboard_check_pressed(ord("0")))
 		room_goto(roomDepthFinal);
 
