@@ -7,7 +7,7 @@
 
 function scrInitialize() {
 	
-	global.dev_mode = true;
+	global.dev_mode = false;
 	
 	scrSetupScribbleFonts();
 
