@@ -42,4 +42,4 @@ alarm[0] = 1;
 depth -= 1;
 
 frameObj = noone;
-eyeObj = noone;
+eyesObj = noone;
